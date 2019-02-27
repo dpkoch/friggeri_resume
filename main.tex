@@ -1,0 +1,26 @@
+% -- Encoding UTF-8 without BOM
+% -- XeLaTeX => PDF (BIBER)
+
+\documentclass[]{cv-style}
+\usepackage{csquotes}
+% \documentclass[11pt]{friggeri-cv}
+\addbibresource{bibliography.bib}
+% \sethyphenation[variant=british]{english}{} % Add words between the {} to avoid them to be cut 
+
+\input{macros}
+
+\begin{document}
+
+\header{James Scott }{Jackson }           % Your name
+% \lastupdated
+
+\input{sidebar}
+\input{education}
+\input{graduate_research}
+\input{employment}
+\input{side_projects}
+
+\printbibsection{article}{Publications}
+\input{references}
+
+\end{document}

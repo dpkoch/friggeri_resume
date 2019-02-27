@@ -1,0 +1,13 @@
+*.bbl
+*.bcf
+*.xml
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.bbl
+*.blg
+*.aux
+root.pdf
+*.bin
