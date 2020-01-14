@@ -111,10 +111,10 @@
 \setlength{\TPHorizModule}{0.01\paperwidth}
 \setlength{\TPVertModule}{0.01\paperwidth}
 
-% \newcommand{\lastupdated}{ 
+% \newcommand{\lastupdated}{
 %   \begin{textblock}{10}(11.3, 0.05)
 %     \raggedleft
-%     \fontsize{8pt}{10pt}\color{date}\thinfont 
+%     \fontsize{8pt}{10pt}\color{date}\thinfont
 %     \lastupdatedtext{} \today
 %   \end{textblock}}
 
@@ -369,7 +369,7 @@
 \RequirePackage[left=5.6cm,top=1cm,right=1cm,bottom=1cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}
 \hypersetup{
-    pdftitle=CV/Resume \textbar{} James Jackson,
-    pdfauthor=James Scott Jackson,
+    pdftitle=CV/Resume \textbar{} Daniel Koch,
+    pdfauthor=Daniel P. Koch,
     pdfsubject=CV/Resume%
     }

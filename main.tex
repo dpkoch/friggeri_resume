@@ -7,10 +7,19 @@
 \addbibresource{bibliography.bib}
 % \sethyphenation[variant=british]{english}{} % Add words between the {} to avoid them to be cut
 
+\usepackage{graphicx}
+\graphicspath{{assets/}}
+\DeclareGraphicsExtensions{.png,.jpg}
+
+\usepackage{tabularx}
+\newcolumntype{R}{>{\raggedleft}X}
+\renewcommand{\arraystretch}{0.3}
+\usepackage{makecell}
+
 \usepackage{enumitem}
 \setlist{noitemsep,leftmargin=0pt}
 
-\input{macros}
+\usepackage{macros}
 
 \begin{document}
 

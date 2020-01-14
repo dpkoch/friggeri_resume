@@ -1,9 +1,25 @@
+\usepackage{pbox}
+
+\newlength{\sidebarlogoheight}
+\setlength{\sidebarlogoheight}{0.8\baselineskip}
+
+\newlength{\sidebarlogowidth}
+\setlength{\sidebarlogowidth}{2em}
+
+\newcommand*{\sidebarlogo}[1]{\pbox[c][\sidebarlogoheight]{\sidebarlogowidth}{\includegraphics[height=\sidebarlogoheight,width=\sidebarlogowidth,keepaspectratio]{#1}}}
+
+\newenvironment{sidebartabular}
+{ \tabularx{\textwidth}{@{\extracolsep{0.5em}}Rc} }
+{ \endtabularx }
+
+% \newcommand*{\github}{\sidebarlogo{github}}
+
 \newcommand*{\github}{\includegraphics[height=0.8\baselineskip]{assets/github.png}}
 \newcommand*{\linkedin}{\includegraphics[height=0.8\baselineskip]{assets/linkedin.png}}
 
 
 \newcommand*{\julia}{\includegraphics[height=0.8\baselineskip]{assets/julia.png}}
-\newcommand*{\cpp}{\includegraphics[height=0.8\baselineskip]{assets/cpp_logo.png}}
+\newcommand*{\cpp}{\includegraphics[height=0.8\baselineskip]{assets/cpp.png}}
 \newcommand*{\python}{\includegraphics[height=0.8\baselineskip]{assets/python.png}}
 \newcommand*{\matlab}{\includegraphics[height=0.8\baselineskip]{assets/matlab.png}}
 
