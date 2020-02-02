@@ -18,17 +18,18 @@
 \RequirePackage{xcolor}
 
 \definecolor{white}{RGB}{255,255,255}
+\definecolor{whitetext}{HTML}{ECEFF4}
 
-\definecolor{darkgray}{HTML}{333333}
-\definecolor{gray}{HTML}{4D4D4D}
-\definecolor{lightgray}{HTML}{999999}
+\definecolor{darkgray}{HTML}{3B4252}
+\definecolor{gray}{HTML}{4C566A}
+\definecolor{lightgray}{HTML}{4C566A}
 
-\definecolor{blue}{HTML}{66D9EE}
-\definecolor{red}{HTML}{FA2772}
-\definecolor{orange}{HTML}{FE9720}
-\definecolor{green}{HTML}{A7E22E}
-\definecolor{purple}{HTML}{9358FE}
-\definecolor{aquamarine}{HTML}{36AF90}
+\definecolor{blue}{HTML}{88C0D0}
+\definecolor{red}{HTML}{BF616A}
+\definecolor{orange}{HTML}{D08770}
+\definecolor{green}{HTML}{8FBCBB}
+\definecolor{purple}{HTML}{B48EAD}
+\definecolor{yellow}{HTML}{EBCB8B}
 
 \definecolor{date}{HTML}{A4A4A4}
 
@@ -38,12 +39,12 @@
   \colorlet{orange}{gray}
   \colorlet{green}{gray}
   \colorlet{purple}{gray}
-  \colorlet{aquamarine}{gray}
+  \colorlet{yellow}{gray}
   \colorlet{fillheader}{white}
   \colorlet{header}{gray}
 \else
   \colorlet{fillheader}{gray}
-  \colorlet{header}{white}
+  \colorlet{header}{whitetext}
 \fi
 \colorlet{textcolor}{gray}
 \colorlet{headercolor}{gray}
@@ -134,7 +135,7 @@
         green\or%
         purple\or%
         red\or%
-        aquamarine\else%
+        yellow\else%
         headercolor\fi%
     } #1#2#3%
   }%
@@ -144,7 +145,7 @@
 \renewcommand{\section}[1]{
   {\par\vspace{\parskip}
   {%
-    \LARGE\headingfont\color{blue}%
+    \LARGE\headingfont\color{green}%
     #1%
     % \@sectioncolor%
   }
