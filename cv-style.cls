@@ -181,6 +181,20 @@
     {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
     #4\vspace{\parsep}%
   }\\}
+\newcommand{\logoentry}[5]{%
+    \parbox[t]{1.8cm}{%
+    #1\\%
+    \vspace{-0.5em}%
+    \begin{center}%
+    \includegraphics[height=1.2cm,width=1.5cm,keepaspectratio]{#5}%
+    \end{center}%
+    }%
+    &\parbox[t]{12.8cm}{%
+    \textbf{#2}%
+    \hfill%
+    {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
+    #4\vspace{\parsep}%
+  }\\}
 
 %----------------------------------------------------------------------------------------
 % Side block %
